@@ -10,6 +10,7 @@ import UserProfile from "./pages/UserProfile";
 import LogIn from "./pages/LogIn";
 import Register from "./pages/Register";
 import PropertyExplore from "./pages/PropertyExplore";
+import PropertyDetailsPage from "./pages/PropertyDetailsPage";
 
 function App() {
   const action = useNavigationType();
@@ -47,6 +48,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/property-details":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -69,6 +74,7 @@ function App() {
       <Route path="/user-profile" element={<UserProfile />} />
       <Route path="/log-in" element={<LogIn />} />
       <Route path="/register" element={<Register />} />
+      <Route path="/property-details" element={<PropertyDetailsPage />} />
       <Route
         path="/property-explore"
         element={<PropertyExplore />}

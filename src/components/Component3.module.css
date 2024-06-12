@@ -1,0 +1,292 @@
+.facilitiesAndAmenities {
+  height: 49px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.div {
+  height: 35px;
+  position: relative;
+  line-height: 35px;
+  font-weight: 300;
+  display: inline-block;
+}
+.image5Icon,
+.image6Icon,
+.image8Icon {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  object-fit: cover;
+}
+.amenitiesIcons,
+.amenitiesIconsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.amenitiesIcons {
+  gap: var(--gap-8xl-7);
+}
+.amenitiesIconsWrapper {
+  padding: var(--padding-12xs) 0 0;
+}
+.elevator,
+.laundryRoom {
+  position: relative;
+}
+.elevator {
+  height: 37px;
+  display: flex;
+  align-items: center;
+}
+.studyRoom {
+  text-decoration: none;
+  color: inherit;
+}
+.lobby,
+.studyRoom {
+  position: relative;
+}
+.amenitiesLabels {
+  flex-direction: column;
+  gap: var(--gap-7xl);
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray);
+}
+.amenitiesLabels,
+.frameGroup,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  flex-direction: row;
+  gap: var(--gap-12xl);
+}
+.frameWrapper {
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+}
+.image7Icon {
+  height: 35px;
+  width: 35px;
+  position: relative;
+  object-fit: cover;
+}
+.image7Wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) 0 var(--padding-10xs);
+}
+.image9Icon {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  object-fit: cover;
+}
+.amenitiesIcons1,
+.frameParent1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameParent1 {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-2xl);
+}
+.amenitiesIcons1 {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-8xs);
+}
+.image11Icon {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  object-fit: cover;
+}
+.amenitiesIconsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+}
+.cctv,
+.reception,
+.wifiConnectivity {
+  position: relative;
+}
+.cctv {
+  height: 37px;
+  display: flex;
+  align-items: center;
+}
+.amenitySubLabels {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-15xl);
+}
+.amenitySubLabels,
+.frameDiv,
+.receptionParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.receptionParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-9xl);
+  min-width: 166px;
+}
+.frameDiv {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-12xl);
+}
+.image10Icon {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  object-fit: cover;
+}
+.basketballCourt {
+  height: 37px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.basketballCourtWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs);
+}
+.frameContainer,
+.image10Parent {
+  display: flex;
+  justify-content: flex-start;
+}
+.image10Parent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-12xl);
+}
+.frameContainer {
+  width: 337px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-6xl);
+  max-width: 100%;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray);
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+}
+.amenitiesContent,
+.amenitiesContentWrapper,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.amenitiesContent {
+  width: 966px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-36xl);
+}
+.amenitiesContentWrapper {
+  width: 1200px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-144xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-gray);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1050px) {
+  .facilitiesAndAmenities {
+    font-size: var(--font-size-13xl);
+  }
+  .div {
+    font-size: var(--font-size-9xl);
+  }
+  .basketballCourt,
+  .cctv,
+  .elevator,
+  .laundryRoom,
+  .lobby,
+  .reception,
+  .studyRoom,
+  .wifiConnectivity {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .amenitiesContent {
+    gap: var(--gap-8xl);
+  }
+  .amenitiesContentWrapper {
+    padding-bottom: var(--padding-87xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .facilitiesAndAmenities {
+    font-size: var(--font-size-5xl);
+  }
+  .div {
+    font-size: var(--font-size-2xl);
+  }
+  .elevator,
+  .laundryRoom,
+  .lobby,
+  .studyRoom {
+    font-size: var(--font-size-lg);
+  }
+  .frameGroup {
+    gap: var(--gap-mini);
+  }
+  .cctv,
+  .reception,
+  .wifiConnectivity {
+    font-size: var(--font-size-lg);
+  }
+  .amenitySubLabels {
+    gap: var(--gap-mid);
+  }
+  .frameDiv {
+    flex-wrap: wrap;
+    gap: var(--gap-mini);
+  }
+  .basketballCourt {
+    font-size: var(--font-size-lg);
+  }
+  .image10Parent {
+    gap: var(--gap-mini);
+  }
+}
