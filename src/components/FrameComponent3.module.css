@@ -1,0 +1,62 @@
+.frameChild {
+  height: 150px;
+  width: 150px;
+  position: relative;
+  background-color: var(--color-gray-100);
+  border: 3px solid var(--color-cornflowerblue-100);
+  box-sizing: border-box;
+  display: none;
+}
+.cutPaperIcon {
+  height: 90px;
+  width: 90px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.frameWrapper,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  flex: 1;
+  background-color: var(--color-gray-100);
+  border: 3px solid var(--color-cornflowerblue-100);
+  padding: var(--padding-7xl) var(--padding-8xl);
+}
+.frameWrapper {
+  width: 172px;
+  padding: 0 var(--padding-2xs);
+  box-sizing: border-box;
+}
+.squareFeet {
+  align-self: stretch;
+  height: 70px;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-8xl);
+  min-width: 145px;
+  text-align: left;
+  font-size: var(--font-size-8xl-5);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 450px) {
+  .squareFeet {
+    font-size: var(--font-size-3xl);
+  }
+}

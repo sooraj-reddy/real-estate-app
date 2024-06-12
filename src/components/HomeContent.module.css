@@ -1,0 +1,402 @@
+.allAwesomePopular,
+.propertyDetails {
+  width: 747px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.propertyDetails {
+  margin: 0;
+  height: 74px;
+  font-size: inherit;
+  font-weight: 300;
+  font-family: inherit;
+}
+.allAwesomePopular {
+  height: 34px;
+  font-weight: 600;
+}
+.allAwesomePopularLocationWrapper {
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 0 0 var(--padding-21xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-8xl-5);
+  color: var(--color-cornflowerblue-200);
+}
+.allAwesomePopularLocationWrapper,
+.imageContainerInner,
+.propertyDetailsParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.propertyDetailsParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.imageContainerInner {
+  width: 1103px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.frameChild {
+  height: 150px;
+  width: 150px;
+  position: relative;
+  background-color: var(--color-gray-100);
+  border: 3px solid var(--color-cornflowerblue-100);
+  box-sizing: border-box;
+  display: none;
+}
+.carIcon {
+  height: 90px;
+  width: 90px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.frameWrapper,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  flex: 1;
+  background-color: var(--color-gray-100);
+  border: 3px solid var(--color-cornflowerblue-100);
+  padding: var(--padding-7xl) var(--padding-8xl);
+}
+.frameWrapper {
+  width: 158px;
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.garageYes {
+  align-self: stretch;
+  height: 34px;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameParent {
+  width: 209px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+}
+.frameItem {
+  height: 150px;
+  width: 150px;
+  position: relative;
+  background-color: var(--color-gray-100);
+  border: 3px solid var(--color-cornflowerblue-100);
+  box-sizing: border-box;
+  display: none;
+}
+.swimmingPoolIcon {
+  height: 90px;
+  width: 90px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.frameContainer,
+.rectangleGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleGroup {
+  flex: 1;
+  background-color: var(--color-gray-100);
+  border: 3px solid var(--color-cornflowerblue-100);
+  padding: var(--padding-7xl) var(--padding-8xl);
+}
+.frameContainer {
+  width: 158px;
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.poolYes,
+.swimming {
+  margin: 0;
+}
+.swimmingPoolContainer {
+  align-self: stretch;
+  height: 70px;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-8xl);
+  min-width: 145px;
+}
+.frameInner {
+  height: 150px;
+  width: 150px;
+  position: relative;
+  background-color: var(--color-gray-100);
+  border: 3px solid var(--color-cornflowerblue-100);
+  box-sizing: border-box;
+  display: none;
+}
+.fullFamilyIcon {
+  height: 90px;
+  width: 90px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.rectangleContainer {
+  width: 150px;
+  background-color: var(--color-gray-100);
+  border: 3px solid var(--color-cornflowerblue-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) var(--padding-8xl) var(--padding-14xl);
+}
+.idealForFamily {
+  height: 70px;
+  flex: 1;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+}
+.frameDiv,
+.idealForFamilyWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.idealForFamilyWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-10xs);
+}
+.frameDiv {
+  width: 212px;
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.propertyFeatures {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-17xl);
+  font-size: var(--font-size-8xl-5);
+}
+.imageContainer {
+  width: 1231px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  max-width: 100%;
+}
+.spaciousAndLarge {
+  width: 209px;
+  height: 70px;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.image2Icon {
+  position: absolute;
+  width: calc(100% - 20px);
+  top: 16px;
+  right: 10px;
+  left: 10px;
+  border-radius: var(--br-11xl);
+  max-width: 100%;
+  overflow: hidden;
+  height: 216.7px;
+  object-fit: cover;
+}
+.mapPinIcon {
+  position: absolute;
+  top: 345px;
+  left: 32px;
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+.image2Parent,
+.rectangleDiv {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.rectangleDiv {
+  border-radius: var(--br-11xl);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  height: 100%;
+  z-index: 1;
+}
+.image2Parent {
+  height: 400px;
+  margin: 0 !important;
+  right: 0;
+}
+.pune {
+  height: 30px;
+  width: 209px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.puneWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  font-size: var(--font-size-5xl);
+}
+.frameChild1 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  z-index: 3;
+}
+.spaciousAndLargeGardenParent {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-241xl) var(--padding-11xl) 0 var(--padding-17xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-8xl);
+}
+.frameParent1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.desktop1,
+.desktop1Inner,
+.homeContent {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.desktop1Inner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  font-size: var(--font-size-8xl-5);
+}
+.desktop1,
+.homeContent {
+  justify-content: flex-start;
+}
+.desktop1 {
+  flex: 1;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-47xl) var(--padding-48xl) var(--padding-10xl);
+  gap: var(--gap-51xl);
+  z-index: 8;
+}
+.homeContent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  margin-top: -10px;
+  text-align: left;
+  font-size: var(--font-size-41xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1275px) {
+  .frameParent1,
+  .propertyFeatures {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .desktop1 {
+    padding-top: var(--padding-11xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .propertyDetails {
+    font-size: var(--font-size-29xl);
+  }
+  .propertyFeatures {
+    gap: var(--gap-lg);
+  }
+  .desktop1 {
+    gap: var(--gap-16xl);
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .propertyDetails {
+    font-size: var(--font-size-17xl);
+  }
+  .allAwesomePopular,
+  .garageYes,
+  .idealForFamily,
+  .spaciousAndLarge,
+  .swimmingPoolContainer {
+    font-size: var(--font-size-3xl);
+  }
+  .pune {
+    font-size: var(--font-size-lgi);
+  }
+  .spaciousAndLargeGardenParent {
+    padding-top: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .desktop1 {
+    gap: var(--gap-mid);
+  }
+}
