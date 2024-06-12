@@ -1,0 +1,66 @@
+* {
+  /* border: 1px solid green; */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.navbar-brand {
+  margin: 3px 50px 3px 50px;
+  color: #ffffff;
+} 
+
+.nav-item, .nav-link {
+  margin: 3px 15px 3px 15px;
+  color: #ffffff;
+}
+
+.navbar {
+  background: linear-gradient(to right, #2697E0, #784DC6);
+}
+
+.mr-sm-2 {
+  width: 500px;
+  margin: 3px 100px 3px 100px;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.properties {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.mostpopular {
+  padding: 50px 120px;
+}
+
+.card-img-top {
+  height: 12rem;
+  background-size: cover;
+}
+
+.card-text {
+  font-size: 16px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.65); 
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 900;
+}

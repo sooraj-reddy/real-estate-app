@@ -9,17 +9,19 @@
 }
 .happyCustomers,
 .happyTrade {
-  margin: 0;
-  height: 73px;
   position: relative;
-  font-size: inherit;
+  font-size: 50px;
   font-weight: 700;
   font-family: inherit;
   display: inline-block;
   z-index: 1;
 }
+.happyCustomers {
+  width: 100%;
+  text-align: center;
+}
 .happyTrade {
-  height: 49px;
+  font-size: 35px;
 }
 .tradeHeading {
   align-self: stretch;

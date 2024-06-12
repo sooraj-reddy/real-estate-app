@@ -1,3 +1,7 @@
+.footer {
+  border: 1px solid green;
+  margin: 80px 0px;
+}
 .footerChild {
   width: 1440px;
   height: 600px;
@@ -18,11 +22,11 @@
 }
 .realEstateAroundTheGlobeWrapper {
   align-self: stretch;
+  font-size: 50px;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
-  padding: 0 0 0 var(--padding-18xl);
 }
 .vectorIcon {
   width: 20.4px;
@@ -69,7 +73,7 @@
 .theFutureOf {
   width: 580px;
   height: 98px;
-  font-size: inherit;
+  font-size: 40px;
   font-weight: 400;
   font-family: inherit;
 }
@@ -78,6 +82,7 @@
   flex: 1;
   white-space: pre-wrap;
   min-width: 407px;
+  font-size: 16px;
 }
 .readMoreIcon {
   width: 20px;

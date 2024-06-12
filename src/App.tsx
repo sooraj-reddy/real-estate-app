@@ -9,7 +9,7 @@ import HomePage from "./pages/HomePage";
 import UserProfile from "./pages/UserProfile";
 import LogIn from "./pages/LogIn";
 import Register from "./pages/Register";
-import PropertyListingsPage from "./pages/PropertyListingsPage";
+import PropertyExplore from "./pages/PropertyExplore";
 
 function App() {
   const action = useNavigationType();
@@ -43,7 +43,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/property-listings-page":
+      case "/property-explore":
         title = "";
         metaDescription = "";
         break;
@@ -70,8 +70,8 @@ function App() {
       <Route path="/log-in" element={<LogIn />} />
       <Route path="/register" element={<Register />} />
       <Route
-        path="/property-listings-page"
-        element={<PropertyListingsPage />}
+        path="/property-explore"
+        element={<PropertyExplore />}
       />
     </Routes>
   );
